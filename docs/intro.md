@@ -2,46 +2,55 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **AppGenPro in less than 5 minutes**.
 
-## Getting Started
+## Installation
 
-Get started by **creating a new site**.
+To get started with AppGenPro, follow these steps:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+1. Create a Virtual Environment:
+```shell
+python3 -m venv myenv
+source myenv/bin/activate
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+2. Install Python Dependencies:
+```shell
+pip install -r requirements.txt
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+3. Install Other Dependencies:
+```shell
+npm install @mermaid-js/mermaid-cli
+```
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+4. Configuration:
+* Navigate to `./appgen/config/config.yaml`.
+* Validate the `mmdc` path by typing `ls ./node_modules/.bin/mmdc` in the terminal.
+* Update `OAI_CONFIG_LIST` and `GITHUB_TOKEN` for OpenAPI model/key and to use github.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Usage
+
+To use appgenpro, you can either run it via the command line or through a Chat UI:
+
+1. **Command Line:**
+
+```shell
+python appgenpro.py --idea "Type your app idea..."
+```
+
+For additional options, use:
+
+```shell
+python appgenpro.py --help
+```
+
+2. **Chat UI:**
+
+Run AppGenPro using Chainlit for an enhanced user experience:
+
+```shell
+chainlit run appgenpro.py
+```

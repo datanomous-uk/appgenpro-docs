@@ -4,32 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Maximized Re-use and Productivity',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Building accelerators and re-usable algorithms / patterns
+        and using code generator might help improve
+        productivity and speed of delivery. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Deliver more with less resources',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The resource bottlenecks might be resolved by upskilling
+        available developers and acquiring the required resources
+        from third parties.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Automated enforcement of standards',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Automated tools might help ensuring the design and code
+        is created based on standards.    
       </>
     ),
   },
