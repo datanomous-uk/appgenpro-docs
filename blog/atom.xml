@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/appgenpro-docs/blog"/>
     <subtitle>AppGenPro Blog</subtitle>
-    <icon>https://github.com/appgenpro-docs/img/favicon.ico</icon>
+    <icon>https://github.com/appgenpro-docs/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://github.com/appgenpro-docs/blog/welcome</id>
