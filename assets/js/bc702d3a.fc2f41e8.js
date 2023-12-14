@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkappgenpro_docs=self.webpackChunkappgenpro_docs||[]).push([[8304],{508:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/appgenpro-docs/blog/tags/docusaurus","allTagsPath":"/appgenpro-docs/blog/tags","count":4,"unlisted":false}')}}]);

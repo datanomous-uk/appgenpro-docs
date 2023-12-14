@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkappgenpro_docs=self.webpackChunkappgenpro_docs||[]).push([[3655],{4747:p=>{p.exports=JSON.parse('{"permalink":"/appgenpro-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

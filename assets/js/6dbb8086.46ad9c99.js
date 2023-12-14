@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkappgenpro_docs=self.webpackChunkappgenpro_docs||[]).push([[4745],{7308:p=>{p.exports=JSON.parse('{"label":"facebook","permalink":"/appgenpro-docs/blog/tags/facebook","allTagsPath":"/appgenpro-docs/blog/tags","count":1,"unlisted":false}')}}]);
