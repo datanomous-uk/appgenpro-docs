@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/appgenpro-docs/blog</id>
-    <title>AppGenPro Blog</title>
+    <title>Say it, have it! Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/appgenpro-docs/blog"/>
-    <subtitle>AppGenPro Blog</subtitle>
+    <subtitle>Say it, have it! Blog</subtitle>
     <icon>https://github.com/appgenpro-docs/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
