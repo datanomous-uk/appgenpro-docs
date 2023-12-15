@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AppGenPro',
-  tagline: 'Welcome to the first GPT-First Development Tool!',
+  title: 'Say it, have it!',
+  tagline: 'Create Complex Enterprise Apps in Minutes with AppGenPro',
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
@@ -27,6 +27,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  stylesheets: ['https://fonts.googleapis.com/icon?family=Material+Icons'],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -42,6 +44,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          // path: "docs",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -61,29 +64,31 @@ const config = {
     ],
   ],
 
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'AppGenPro',
-        // logo: {
-        //   alt: '',
-        //   src: 'img/logo_light.svg',
-        // },
+        title: '',
+        logo: {
+          alt: 'AppGenPro',
+          src: 'img/logo_light.svg',
+        },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            sidebarId: 'docsSidebar',
+            position: 'right',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/datanomous-uk/appgenpro',
             label: 'GitHub',
             position: 'right',
           },
+
         ],
       },
       footer: {
@@ -93,8 +98,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Docs',
+                to: '/docs/getting-started',
               },
             ],
           },

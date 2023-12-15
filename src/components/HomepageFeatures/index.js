@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Maximized Re-use and Productivity',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/productivity.svg').default,
     description: (
       <>
         Building accelerators and re-usable algorithms / patterns
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Deliver more with less resources',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/resources.svg').default,
     description: (
       <>
         The resource bottlenecks might be resolved by upskilling
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Automated enforcement of standards',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/resources.svg').default,
     description: (
       <>
         Automated tools might help ensuring the design and code
@@ -56,9 +56,11 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
+          <h1>Forget about the biggest pain points of software development with the GPT-First Development approach!</h1>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+          <p style= {{textAlign: 'center', fontWeight: 'bold', fontSize: '20px'}}>AppGenPro is the first advanced “AI-powered app generator” built for businesses that automates the development lifecycle to create enterprise grade solutions.</p>
         </div>
       </div>
     </section>
